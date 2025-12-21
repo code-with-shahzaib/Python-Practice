@@ -8,7 +8,7 @@ letter = ''' Dear <|Name|>,
 """
 name = input("Enter you name: ")
 date = input("Enter date (DD-MM-YYYY): ")
-
+# This is only the one way of doing this from hundreds.
 letter = f"""Dear <|{name}|>,
 You are selected!
 <|{date}|>"""
