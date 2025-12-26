@@ -26,7 +26,7 @@ for i in range(1,4):
 total_marks = 0
 for mark in marks_list:
     total_marks += mark
-student_record = (student_name, roll_number, marks_list)
+student_record = (student_name, roll_number, tuple(marks_list))
 
 average = total_marks / len(marks_list)
 
